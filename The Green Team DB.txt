@@ -1,0 +1,5 @@
+The Green Team
+
+ADMIN ID: GTeamAdmin	PASSWORD:  XrCDtyh5 
+USER ID: ECUser	PASSWORD: 10nrszMoc1
+DATABASE: GTeam  	SERVER:  mimas.itds.unt.edu

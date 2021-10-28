@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Example1.master.cs" Inherits="Example1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>MasterPage</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    </head>
+    <body>
+</form> 
+    <form id="form1" runat="server">
+    <div>
+  <div id="header" class="container">
+	<div id="logo">
+		<h1>Green Team Consulting Services</h1>
+	        </div>       
+            <div id="menu">
+                <br />
+                <ul>
+			<li class="active"><a href="Default.aspx" accesskey="1" title="Home">Home</a></li>
+			<li><a href="About.aspx" accesskey="3" title="About">About Us</a></li>
+			<li><a href="Login.aspx" accesskey="4" title="">Log in</a></li>
+            <li><a href="Registration.aspx" accesskey="5" title="">Create Account</a></li>
+			<li><a href="Donation.aspx" accesskey="6" title="">Donate</a></li>   
+            <li><a href="Products.aspx" accesskey="6" title="">Products</a></li>  
+		        </ul>
+            </div>
+        </div>
+        <div id="wrapper">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        </div>
+    </form>
+     </div> 
+</body>
+   <div id="copyright" class="container">
+	<p>&copy; Disclaimer. <b>This website was made for education purposes only, not a real website! </b>| Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+       <p><a href="Donation.aspx" accesskey="6" title=""><img src="images/btn_donateCC_LG.gif"</a></p>
+</div>
+</html>
+
